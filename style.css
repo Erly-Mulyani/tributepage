@@ -1,0 +1,75 @@
+body {
+   font-family: 'Lato', sans-serif;
+ }
+
+h1, h2, h3, h4, h5, h6, blockquote {
+  font-family: 'Roboto slab', serif;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+h3 {
+  font-size: 2.2em;
+}
+
+p, li {
+  font-size: 1em;
+}
+
+.hero-section {
+  margin: 0;
+  height: 650px;
+  color: #f5d800;
+  background-color: #e4e4e4;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Presiden_Sukarno.jpg/220px-Presiden_Sukarno.jpg");
+  background-size: cover;
+  background-position: fixed;https://cdns.klimg.com/merdeka.com/i/w/tokoh/2012/01/11/411/200x300/soekarno-rev-1.jpg
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.hero-content {
+  margin-top: 250px;
+  margin-left: 200px;
+}
+.hero-section a {
+  color: #ffff00;
+}
+.main {
+  margin-top: 60px;
+  padding: 30px 20px;
+  background-color: #e4e4e4;
+  border-radius: 5px;
+}
+
+/* .container-img {
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+ */
+@media screen and (max-width : 769px) {
+  .hero-section {
+  margin: 0;
+  height: 400px;
+  color: #fff000;
+  background-color: #e4e4e4;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Presiden_Sukarno.jpg/220px-Presiden_Sukarno.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}  
+  .hero-content {
+  margin-top: 0;
+  margin-left: 0;
+}
+  .small-screen-invisible {
+    display: none;
+  }
+}
